@@ -12,7 +12,7 @@ plugins {
     id 'application'
 }
 
-mainClassName='HelloGradle.Application'
+mainClassName='StreamApi.Application'
 
 repositories {
     // Use jcenter for resolving your dependencies.
@@ -29,4 +29,11 @@ dependencies {
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
+
+    // https://mvnrepository.com/artifact/net.sf.supercsv/super-csv
+    compile group: 'net.sf.supercsv', name: 'super-csv', version: '2.4.0'
+    // https://mvnrepository.com/artifact/com.github.mygreen/super-csv-annotation
+    compile group: 'com.github.mygreen', name: 'super-csv-annotation', version: '2.2'
+    compile group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.1'
+    compile group: 'log4j', name: 'log4j', version: '1.2.14'
 }
