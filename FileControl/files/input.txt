@@ -1,0 +1,2 @@
+This text is input file for test.
+日本語テスト１２３ａｂｃＡＢＣ123abcABC
