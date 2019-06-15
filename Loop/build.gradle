@@ -12,7 +12,7 @@ plugins {
     id 'application'
 }
 
-mainClassName='For.Application'
+mainClassName='loop.Application'
 
 repositories {
     // Use jcenter for resolving your dependencies.
