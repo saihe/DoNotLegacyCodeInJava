@@ -1,0 +1,3 @@
+T001:ログ出力形式が「日時|実行ユーザー名|プロセスID|ログレベル|ログメッセージ」で/Users/kyohei/Documents/work/eclipse/DoNotLegacyCodeInJava/TestJUnit/outputs/test_jnit_yyyyMMdd.logに出力されること。
+T002:GoogleのホームページのHTTP/GET取得結果が/Users/kyohei/Documents/work/eclipse/DoNotLegacyCodeInJava/TestJUnit/outputs/google_home.htmlに出力されること。
+T003:/Users/kyohei/Documents/work/eclipse/DoNotLegacyCodeInJava/TestJUnit/outputs/google_home.htmlが既に存在する場合、新規作成したファイルで置き換えられること。
